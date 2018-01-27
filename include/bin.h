@@ -16,5 +16,6 @@ public:
     bool insertBinObject(binObject object);
 };
 
+typedef std::vector<Bin> binVector;
 
 #endif // BINPACKING_BIN_H
