@@ -2,6 +2,8 @@
 #ifndef BINPACKING_BIN_OBJECT_H
 #define BINPACKING_BIN_OBJECT_H
 
+#include <vector>
+
 class binObject {
 
 public:
@@ -11,5 +13,5 @@ public:
     float size();
 };
 
-
+typedef std::vector<binObject> binObjectVector;
 #endif // BINPACKING_BIN_OBJECT_H

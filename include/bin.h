@@ -2,15 +2,14 @@
 #ifndef BINPACKING_BIN_H
 #define BINPACKING_BIN_H
 
-#include "../include/binObject.h"
-#include "types.h"
+#include "binObject.h"
 #include <vector>
 
 class Bin {
-    Bin() = default;
-    Bin(binObjectVector _bin_objects) : bin_objects(_bin_objects) {};
-    Bin(float _bin_capacity) : bin_capacity(_bin_capacity) {};
 public:
+    Bin() = default;
+    Bin(std::vector<binObject> _bin_objects) : bin_objects(_bin_objects) {};
+    Bin(float _bin_capacity) : bin_capacity(_bin_capacity) {};
     float total_weight;
     float bin_capacity = 1;
     binObjectVector bin_objects;
