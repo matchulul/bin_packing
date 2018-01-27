@@ -12,10 +12,20 @@ enum distType {
     uniform
 };
 
+//constants for now, easily expanded
+#define OBJSIZE_MIN 0.01
+#define OBJSIZE_MAX 0.99
+
 class binObjectFactory {
 
     std::default_random_engine generator;
-    std::normal_distribution<float> normal_dist{0.0, 1.0};
+    /*
+     *  I have chosen N(0.5, 0.15) to get some non-uniformly distributed numbers
+     *  numbers will be capped between 0.01 and .99 to still maintain the size
+     *  0-1 size of the problem, on the off chance a number is generated above
+     *  (A very low probability event.)
+     */
+    std::normal_distribution<float> normal_dist{0.5, 0.15};
     std::uniform_real_distribution<float> uniform_dist{0.0, 1.0};
 
     binObjectVector generateN(int n, distType dist);

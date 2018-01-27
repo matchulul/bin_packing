@@ -1,9 +1,33 @@
 
 #include <random>
 #include <iostream>
-#include "../include/binObjectsFactory.h"
+#include "../include/binObjectFactory.h"
 #include "../include/types.h"
 
+
+
+/* A small utility function to chop distribution draws to be between a certain number
+ * pop it in a namespace until I have enough utility functions to justify 
+ * a separate file
+ */
+namespace {
+    float limit_range(float n, float min_, float max_){
+        if(n > min_ && n < max_){
+            return n;
+        }
+        else if (n < min_){
+            return min_;
+        }
+        else{
+            return max_;
+        } 
+    }
+}
+
+/*
+ * generateN : return a vector of n bin objects,
+ *             pulled from a distribution dist
+ */
 binObjectVector binObjectFactory::generateN(int n, distType dist){
     binObjectVector bin_vec;
     for (int i = 0; i < n; i++){
@@ -13,14 +37,20 @@ binObjectVector binObjectFactory::generateN(int n, distType dist){
 }
 
 binObject binObjectFactory::generateBinObject(distType dist){
+    float object_size = 0;
     switch(dist) {
     case distType::normal:
-        return binObject(normal_dist(generator));
+        object_size = limit_range(normal_dist(generator), OBJSIZE_MIN, OBJSIZE_MAX);
+        break;
     case distType::uniform:
-        return binObject(uniform_dist(generator));
+        object_size = limit_range(uniform_dist(generator), OBJSIZE_MIN, OBJSIZE_MAX);
+        break;
     default:
         std::cout << "Unimplemented distribution for binObjectFactory\n";
         exit(1);
     }
+    return binObject(object_size);
 
 }
+
+

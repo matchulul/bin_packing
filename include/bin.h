@@ -7,7 +7,6 @@
 #include <vector>
 
 class Bin {
-
     Bin() = default;
     Bin(binObjectVector _bin_objects) : bin_objects(_bin_objects) {};
     Bin(float _bin_capacity) : bin_capacity(_bin_capacity) {};
