@@ -5,6 +5,7 @@
 #include "binPackingAlgorithm.h"
 
 class simulationRunner{
+public:
     simulationRunner(binPackingAlgorithm algo);
     binPackingAlgorithm algorithm; // An instance of an algorithm which will be simulated on
     std::vector<float> num_bins;

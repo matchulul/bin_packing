@@ -19,8 +19,8 @@ int simulationRunner::runOne() {
 
 void simulationRunner::runN(int n_sims){
     std::cout << "Running " << n_sims << " bin packing experiments using: "
-              << algorithm.name << std::endl << "With " << algorithm.count_objects()
-              << " bin objects";
+              << algorithm.name << " with " << algorithm.count_objects()
+              << " bin objects" << std::endl;
     int bins;
     auto runner_start = std::chrono::system_clock::now();
     for(int i = 0; i < n_sims; i++){
@@ -35,7 +35,7 @@ void simulationRunner::runN(int n_sims){
     auto runner_end = std::chrono::system_clock::now();
     auto total_runtime = std::chrono::duration_cast<std::chrono::seconds>(runner_end-runner_start).count();
     std::cout << "Simulation Complete! It took a total of " << total_runtime << " to complete "
-              << n_sims << " simulations. Data Report:" << std::endl;
+              << n_sims << " simulations." << std::endl << "Data Report:" << std::endl;
     report();
 }
 

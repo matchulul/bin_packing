@@ -1,5 +1,8 @@
 
 #include "../include/binPackingAlgorithm.h"
+#include <numeric>
+#include <iostream>
+
 
 //Generate n binObjects, simple constructor
 binPackingAlgorithm::binPackingAlgorithm(int n_objects, distType dist){
@@ -15,5 +18,10 @@ void binPackingAlgorithm::reset(){
 }
 
 int binPackingAlgorithm::packBins(){
-    return 0;
+    int j;
+    for (int i=0; i<100000000; i++){
+        j = 1+1;
+    }
+    std::cout << j;
+    return (int) bin_objects[10].size()*10;
 }
