@@ -2,6 +2,7 @@
 #include "../include/binPackingAlgorithm.h"
 #include <numeric>
 #include <iostream>
+#include <cmath>
 
 
 //Generate n binObjects, simple constructor
@@ -22,6 +23,5 @@ int binPackingAlgorithm::packBins(){
     for (int i=0; i<100000000; i++){
         j = 1+1;
     }
-    std::cout << j;
-    return (int) bin_objects[10].size()*10;
+    return round(bin_objects[10].size()*100*j);
 }

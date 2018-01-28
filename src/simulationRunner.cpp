@@ -1,6 +1,7 @@
 
 #include <iostream>
 #include <chrono>
+#include <ctime>
 #include <numeric>
 #include "../include/simulationRunner.h"
 
@@ -14,7 +15,8 @@ simulationRunner::simulationRunner(binPackingAlgorithm algo){
 
 // Run one binpacking sim given the set up and return the number of bins req'd
 int simulationRunner::runOne() {
-    return algorithm.packBins();
+    int bin = algorithm.packBins();
+    return bin;
 }
 
 void simulationRunner::runN(int n_sims){
@@ -28,7 +30,8 @@ void simulationRunner::runN(int n_sims){
         bins = runOne();
         auto end = std::chrono::system_clock::now();
         num_bins.push_back((float) bins);
-        auto run_time = std::chrono::duration_cast<std::chrono::seconds>(end-start).count();
+        auto run_time = std::chrono::seconds((end-start)).count();
+        std::cout<< "$$" << run_time << "** " ;
         run_times.push_back(run_time);
 
     }
