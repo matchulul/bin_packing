@@ -2,9 +2,6 @@
 #include <random>
 #include <iostream>
 #include "../include/binObjectFactory.h"
-#include "../include/types.h"
-
-
 
 /* A small utility function to chop distribution draws to be between a certain number
  * pop it in a namespace until I have enough utility functions to justify 

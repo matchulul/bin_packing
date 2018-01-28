@@ -2,18 +2,21 @@
 #ifndef BINPACKING_BIN_OBJECT_FACTORY_H
 #define BINPACKING_BIN_OBJECT_FACTORY_H
 
+#include <random>
+#include <map>
 #include "../include/binObject.h"
 #include "../include/bin.h"
-#include <random>
+
+//constants for now, easily expanded
+#define OBJSIZE_MIN 0.01
+#define OBJSIZE_MAX 0.99
 
 enum distType { 
     normal,
     uniform
 };
 
-//constants for now, easily expanded
-#define OBJSIZE_MIN 0.01
-#define OBJSIZE_MAX 0.99
+
 
 class binObjectFactory {
     /*
