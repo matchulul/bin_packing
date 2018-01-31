@@ -27,3 +27,18 @@ c. Testing input data and the results and complexity analysis. You should includ
 d. A user manual explaining how to run your project.  
 e. Discussions and reflection on knowledge gained.
 f. References.
+
+
+
+
+
+
+
+
+
+
+CODE TODO:
+ get chrono working properly god damn it 
+ Refactor first fit greedy algo to encapsulate linear searching bins 
+ generalize the timing bits of the the simulation runner
+ write soem basic arg parsing so I can script outputs  and parse the results

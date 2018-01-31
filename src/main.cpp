@@ -1,13 +1,13 @@
 #include <iostream>
 #include "../include/simulationRunner.h"
-#include "../include/binPackingAlgorithm.h"
+#include "../include/firstFitAlgorithm.h"
 
 int main() 
 {
 //todo: implement arg parsing for efficient scripting
-   auto algo = binPackingAlgorithm(50, normal);
-   auto simRunner = simulationRunner(algo);
-   simRunner.runN(50);
+    SIMDATA data = {50, 5000, uniform, first_fit};
+    auto simRunner = simulationRunner();
+    simRunner.runN(data);
 
 
     return 0; 
