@@ -8,12 +8,13 @@
 class Bin {
 public:
     Bin() = default;
-    Bin(std::vector<binObject> _bin_objects) : bin_objects(_bin_objects) {};
+    Bin(binObjectVector _bin_objects);
     Bin(float _bin_capacity) : bin_capacity(_bin_capacity) {};
     float total_weight;
     float bin_capacity = 1;
     binObjectVector bin_objects;
     bool insertBinObject(binObject object);
+    bool isEmpty() {return total_weight == 0;}
 };
 
 typedef std::vector<Bin> binVector;
