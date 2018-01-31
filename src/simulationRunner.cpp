@@ -4,24 +4,22 @@
 #include <ctime>
 #include <numeric>
 #include "../include/simulationRunner.h"
+#include "../include/algorithm.h"
+#include "../include/firstFitAlgorithm.h"
 
 
-simulationRunner::simulationRunner(binPackingAlgorithm algo){
-    algorithm = algo;
-    num_bins.reserve(algorithm.count_objects()); //preallocate to save time
-    run_times.reserve(algorithm.count_objects());
-
+int simulationRunner::runOne(SIMDATA data){
+    switch(data.algo){
+    case first_fit:
+        return firstFitAlgorithm(data.n_objs, data.dist).packBins();
+    default:
+        return -1;
+    }
 }
 
-// Run one binpacking sim given the set up and return the number of bins req'd
-int simulationRunner::runOne() {
-    int bin = algorithm.packBins();
-    return bin;
-}
-
-void simulationRunner::runN(int n_sims){
-    std::cout << "Running " << n_sims << " bin packing experiments using: "
-              << algorithm.name << " with " << algorithm.count_objects()
+void simulationRunner::runN(SIMDATA data){
+    std::cout << "Running " << data.n_sims << " bin packing experiments using: "
+              << algo_map_name.at(data.algo) << " with " << data.n_objs
               << " bin objects" << std::endl;
     int bins;
     time_t start;
@@ -29,20 +27,19 @@ void simulationRunner::runN(int n_sims){
     time_t job_start;
     time_t job_end;
     time(&job_start);
-    for(int i = 0; i < n_sims; i++){
+    for(int i = 0; i < data.n_sims; i++){
         time(&start);
-        bins = runOne();
+        bins = runOne(data);
         time(&end);
         num_bins.push_back((float) bins);
         auto run_time = difftime(end, start);
-        std::cout << run_time << std::endl;
         run_times.push_back((float) run_time);
 
     }
     time(&job_end);
     auto total_runtime = difftime(job_end, job_start);
     std::cout << "Simulation Complete! It took a total of " << total_runtime << " sec to complete "
-              << n_sims << " simulations." << std::endl << "Data Report:" << std::endl;
+              << data.n_sims << " simulations." << std::endl << "Data Report:" << std::endl;
     report();
 }
 
