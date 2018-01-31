@@ -19,9 +19,5 @@ void binPackingAlgorithm::reset(){
 }
 
 int binPackingAlgorithm::packBins(){
-    int j;
-    for (int i=0; i<100000000; i++){
-        j = 1+1;
-    }
-    return round(bin_objects[10].size()*100*j);
+    return 0;
 }

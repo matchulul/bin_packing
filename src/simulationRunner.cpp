@@ -24,20 +24,24 @@ void simulationRunner::runN(int n_sims){
               << algorithm.name << " with " << algorithm.count_objects()
               << " bin objects" << std::endl;
     int bins;
-    auto runner_start = std::chrono::system_clock::now();
+    time_t start;
+    time_t end;
+    time_t job_start;
+    time_t job_end;
+    time(&job_start);
     for(int i = 0; i < n_sims; i++){
-        auto start = std::chrono::system_clock::now();
+        time(&start);
         bins = runOne();
-        auto end = std::chrono::system_clock::now();
+        time(&end);
         num_bins.push_back((float) bins);
-        auto run_time = std::chrono::seconds((end-start)).count();
-        std::cout<< "$$" << run_time << "** " ;
-        run_times.push_back(run_time);
+        auto run_time = difftime(end, start);
+        std::cout << run_time << std::endl;
+        run_times.push_back((float) run_time);
 
     }
-    auto runner_end = std::chrono::system_clock::now();
-    auto total_runtime = std::chrono::duration_cast<std::chrono::seconds>(runner_end-runner_start).count();
-    std::cout << "Simulation Complete! It took a total of " << total_runtime << " to complete "
+    time(&job_end);
+    auto total_runtime = difftime(job_end, job_start);
+    std::cout << "Simulation Complete! It took a total of " << total_runtime << " sec to complete "
               << n_sims << " simulations." << std::endl << "Data Report:" << std::endl;
     report();
 }
