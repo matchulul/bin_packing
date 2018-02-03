@@ -30,8 +30,15 @@ SIMDATA parse_args_basic(char *argv[]){
 
 int main(int argc, char *argv[]) 
 {
-//todo: implement arg parsing for efficient scripting
-    SIMDATA data = parse_args_basic(argv);
+    std::cout << std::string(*argv);
+    SIMDATA data;
+    if (argc == 1)
+    {
+        data = {1, 50, uniform, first_fit};
+    }
+    else{
+        data = parse_args_basic(argv);
+    }
     auto simRunner = simulationRunner();
     simRunner.runN(data);
 

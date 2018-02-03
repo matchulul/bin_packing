@@ -31,7 +31,7 @@ int simulationRunner::runOne(SIMDATA data){
 void simulationRunner::runN(SIMDATA data){
     std::cout << "Running ^" << data.n_sims << " bin packing experiments using: "
               << algo_map_name.at(data.algo) << " with *" << data.n_objs
-              << " bin objects" << std::endl;
+              << " bin objects " << std::endl;
     int bins;
     float average_time = 0.0;
     for(int i = 0; i < data.n_sims; i++){
