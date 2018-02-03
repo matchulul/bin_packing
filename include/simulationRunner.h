@@ -26,7 +26,7 @@ public:
     std::vector<float> run_times;
     int runOne(SIMDATA data);
     void runN(SIMDATA data);
-    void report();
+    void report(float average_time);
 };
 
 
