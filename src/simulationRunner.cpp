@@ -6,6 +6,7 @@
 #include "../include/simulationRunner.h"
 #include "../include/algorithm.h"
 #include "../include/firstFitAlgorithm.h"
+#include "../include/smartFirstFit.h"
 
 
 typedef std::chrono::high_resolution_clock Time;
@@ -23,6 +24,8 @@ int simulationRunner::runOne(SIMDATA data){
     switch(data.algo){
     case first_fit:
         return firstFitAlgorithm(data.n_objs, data.dist).packBins();
+    case smart_first_fit:
+        return smartFirstFit(data.n_objs, data.dist).packBins();
     default:
         return -1;
     }

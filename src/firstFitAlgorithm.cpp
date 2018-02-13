@@ -18,7 +18,7 @@ void firstFitAlgorithm::reset(){
 
 }
 int firstFitAlgorithm::estimateBins(){
-    return 1;
+
     // The first fit algorithm in this scenario asserts that the optimal
     // Number of bins is ceil(S) where S is the sum of all the objects.
 
@@ -55,13 +55,17 @@ int firstFitAlgorithm::packBins(){
             }
         }
         if(!obj_inserted) {
-            binObjectVector obj_bin = {obj};
-            Bin *new_bin = new Bin(obj_bin);
-            bins.push_back(*new_bin);
+            insertNewBin(obj);
             number_of_bins++;
         }
     }
     return number_of_bins;
 
+}
+
+void firstFitAlgorithm::insertNewBin(binObject obj){
+    binObjectVector obj_bin = {obj};
+    Bin *new_bin = new Bin(obj_bin);
+    bins.push_back(*new_bin);
 }
 

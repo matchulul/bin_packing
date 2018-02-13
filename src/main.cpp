@@ -21,8 +21,11 @@ SIMDATA parse_args_basic(char *argv[]){
     if (std::stoi(argv[4]) == 0){
         data.algo = first_fit;
     }
-    else{
-        data.algo = first_fit; // change this in case i improve on first fit
+    else if (std::stoi(argv[4]) == 1){
+        data.algo = smart_first_fit;
+    }
+    else{ //default
+        data.algo = first_fit;
     }
     return data;
 }

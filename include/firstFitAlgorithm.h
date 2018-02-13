@@ -22,6 +22,7 @@ public:
     virtual int packBins();
     int count_objects() { return num_objects; };
     int estimateBins();
+    void insertNewBin(binObject obj);
 };
 
 

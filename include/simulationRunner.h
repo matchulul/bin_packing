@@ -7,10 +7,11 @@
 #include "firstFitAlgorithm.h"
 
 enum supported_algos{
-    first_fit
+    first_fit,
+    smart_first_fit
 };
 
-const std::map<supported_algos, std::string> algo_map_name = {{first_fit, "First fit"}};
+const std::map<supported_algos, std::string> algo_map_name = { {smart_first_fit, "Smart_first_fit"}};
 
 struct SIMDATA{
     int n_sims;
