@@ -1,0 +1,396 @@
+../bin/runner  50 First fit 1000  527 3
+../bin/runner  50 Smart_first_fit 1000  684 0
+../bin/runner  50 First fit 1000  543 3
+../bin/runner  50 Smart_first_fit 1000  747 0
+../bin/runner  50 First fit 2000  1005 11.22
+../bin/runner  50 Smart_first_fit 2000  1370 0.1
+../bin/runner  50 First fit 2000  1002 12.16
+../bin/runner  50 Smart_first_fit 2000  1488 0.44
+../bin/runner  50 First fit 3000  1553 28.94
+../bin/runner  50 Smart_first_fit 3000  2043 1
+../bin/runner  50 First fit 3000  1563 26.68
+../bin/runner  50 Smart_first_fit 3000  2231 1.12
+../bin/runner  50 First fit 4000  2066 44.34
+../bin/runner  50 Smart_first_fit 4000  2739 1.12
+../bin/runner  50 First fit 4000  2088 46.94
+../bin/runner  50 Smart_first_fit 4000  2974 1.7
+../bin/runner  50 First fit 5000  2597 68.12
+../bin/runner  50 Smart_first_fit 5000  3424 2
+../bin/runner  50 First fit 5000  2627 73.8
+../bin/runner  50 Smart_first_fit 5000  3731 2.14
+../bin/runner  50 First fit 6000  3004 98.88
+../bin/runner  50 Smart_first_fit 6000  4114 2.86
+../bin/runner  50 First fit 6000  3002 104.74
+../bin/runner  50 Smart_first_fit 6000  4478 3.06
+../bin/runner  50 First fit 7000  3612 135.12
+../bin/runner  50 Smart_first_fit 7000  4800 3.02
+../bin/runner  50 First fit 7000  3667 149.02
+../bin/runner  50 Smart_first_fit 7000  5240 3.24
+../bin/runner  50 First fit 8000  4018 176.98
+../bin/runner  50 Smart_first_fit 8000  5494 3.3
+../bin/runner  50 First fit 8000  4159 189.54
+../bin/runner  50 Smart_first_fit 8000  5986 4.14
+../bin/runner  50 First fit 9000  4569 222.86
+../bin/runner  50 Smart_first_fit 9000  6185 4.68
+../bin/runner  50 First fit 9000  4500 241.56
+../bin/runner  50 Smart_first_fit 9000  6730 4.16
+../bin/runner  50 First fit 10000  5166 278.78
+../bin/runner  50 Smart_first_fit 10000  6869 4.12
+../bin/runner  50 First fit 10000  5194 290.1
+../bin/runner  50 Smart_first_fit 10000  7481 4.24
+../bin/runner  50 First fit 11000  5501 333.98
+../bin/runner  50 Smart_first_fit 11000  7533 4.22
+../bin/runner  50 First fit 11000  5504 347.3
+../bin/runner  50 Smart_first_fit 11000  8225 5.68
+../bin/runner  50 First fit 12000  6008 392.04
+../bin/runner  50 Smart_first_fit 12000  8225 5.26
+../bin/runner  50 First fit 12000  6207 421.72
+../bin/runner  50 Smart_first_fit 12000  8962 6.2
+../bin/runner  50 First fit 13000  6683 464.58
+../bin/runner  50 Smart_first_fit 13000  8906 6.02
+../bin/runner  50 First fit 13000  6714 481.1
+../bin/runner  50 Smart_first_fit 13000  9693 6.42
+../bin/runner  50 First fit 14000  7181 523.66
+../bin/runner  50 Smart_first_fit 14000  9593 6.1
+../bin/runner  50 First fit 14000  7214 561.04
+../bin/runner  50 Smart_first_fit 14000  10430 7.02
+../bin/runner  50 First fit 15000  7505 605.8
+../bin/runner  50 Smart_first_fit 15000  10274 6.6
+../bin/runner  50 First fit 15000  7697 643.12
+../bin/runner  50 Smart_first_fit 15000  11182 7.2
+../bin/runner  50 First fit 16000  8218 682.62
+../bin/runner  50 Smart_first_fit 16000  10973 7
+../bin/runner  50 First fit 16000  7999 762.66
+../bin/runner  50 Smart_first_fit 16000  11933 7.74
+../bin/runner  50 First fit 17000  8506 783.34
+../bin/runner  50 Smart_first_fit 17000  11647 7.22
+../bin/runner  50 First fit 17000  8500 839.34
+../bin/runner  50 Smart_first_fit 17000  12689 8.06
+../bin/runner  50 First fit 18000  9227 894.18
+../bin/runner  50 Smart_first_fit 18000  12325 7.88
+../bin/runner  50 First fit 18000  9251 946.56
+../bin/runner  50 Smart_first_fit 18000  13422 8.8
+../bin/runner  50 First fit 19000  9494 970.64
+../bin/runner  50 Smart_first_fit 19000  13008 8.28
+../bin/runner  50 First fit 19000  9730 1022.36
+../bin/runner  50 Smart_first_fit 19000  14162 9.08
+../bin/runner  50 First fit 20000  10003 1102.82
+../bin/runner  50 Smart_first_fit 20000  13707 8.88
+../bin/runner  50 First fit 20000  10297 1157.2
+../bin/runner  50 Smart_first_fit 20000  14906 9.32
+../bin/runner  50 First fit 21000  10496 1173.32
+../bin/runner  50 Smart_first_fit 21000  14380 8.98
+../bin/runner  50 First fit 21000  10489 1257.04
+../bin/runner  50 Smart_first_fit 21000  15651 9.4
+../bin/runner  50 First fit 22000  11240 1354.36
+../bin/runner  50 Smart_first_fit 22000  15069 11.46
+../bin/runner  50 First fit 22000  10991 1406.82
+../bin/runner  50 Smart_first_fit 22000  16399 11.22
+../bin/runner  50 First fit 23000  11700 1418.84
+../bin/runner  50 Smart_first_fit 23000  15737 9.36
+../bin/runner  50 First fit 23000  11485 1494.38
+../bin/runner  50 Smart_first_fit 23000  17141 12.16
+../bin/runner  50 First fit 24000  12252 1548.26
+../bin/runner  50 Smart_first_fit 24000  16442 11.28
+../bin/runner  50 First fit 24000  11988 1666.16
+../bin/runner  50 Smart_first_fit 24000  17883 12.98
+../bin/runner  50 First fit 25000  12777 1699.1
+../bin/runner  50 Smart_first_fit 25000  17127 11.5
+../bin/runner  50 First fit 25000  12792 1800.88
+../bin/runner  50 Smart_first_fit 25000  18642 12.88
+../bin/runner  50 First fit 26000  13244 1812.96
+../bin/runner  50 Smart_first_fit 26000  17811 12.2
+../bin/runner  50 First fit 26000  13285 1964.6
+../bin/runner  50 Smart_first_fit 26000  19382 13.66
+../bin/runner  50 First fit 27000  13821 1967.7
+../bin/runner  50 Smart_first_fit 27000  18517 12.54
+../bin/runner  50 First fit 27000  13797 2117.2
+../bin/runner  50 Smart_first_fit 27000  20127 13.94
+../bin/runner  50 First fit 28000  14281 2124.1
+../bin/runner  50 Smart_first_fit 28000  19201 12.82
+../bin/runner  50 First fit 28000  14323 2260.52
+../bin/runner  50 Smart_first_fit 28000  20885 14.3
+../bin/runner  50 First fit 29000  14500 2250.72
+../bin/runner  50 Smart_first_fit 29000  19883 13.54
+../bin/runner  50 First fit 29000  14854 2414.64
+../bin/runner  50 Smart_first_fit 29000  21629 15.16
+../bin/runner  50 First fit 30000  15334 2433.8
+../bin/runner  50 Smart_first_fit 30000  20568 13.52
+../bin/runner  50 First fit 30000  15347 2578.5
+../bin/runner  50 Smart_first_fit 30000  22357 14.96
+../bin/runner  50 First fit 31000  15799 2637.84
+../bin/runner  50 Smart_first_fit 31000  21259 14.18
+../bin/runner  50 First fit 31000  15797 2792.8
+../bin/runner  50 Smart_first_fit 31000  23108 15.66
+../bin/runner  50 First fit 32000  16325 2782.2
+../bin/runner  50 Smart_first_fit 32000  21952 14.2
+../bin/runner  50 First fit 32000  15987 2898.18
+../bin/runner  50 Smart_first_fit 32000  23858 16.12
+../bin/runner  50 First fit 33000  16796 2920.2
+../bin/runner  50 Smart_first_fit 33000  22617 14.5
+../bin/runner  50 First fit 33000  16853 3092.38
+../bin/runner  50 Smart_first_fit 33000  24614 16.1
+../bin/runner  50 First fit 34000  17333 3107.96
+../bin/runner  50 Smart_first_fit 34000  23316 15
+../bin/runner  50 First fit 34000  17464 3283.3
+../bin/runner  50 Smart_first_fit 34000  25375 16.54
+../bin/runner  50 First fit 35000  17810 3290.2
+../bin/runner  50 Smart_first_fit 35000  23987 15.26
+../bin/runner  50 First fit 35000  17888 3476.58
+../bin/runner  50 Smart_first_fit 35000  26118 16.98
+../bin/runner  50 First fit 36000  18319 3444.06
+../bin/runner  50 Smart_first_fit 36000  24674 15.6
+../bin/runner  50 First fit 36000  18466 3640.7
+../bin/runner  50 Smart_first_fit 36000  26849 17.38
+../bin/runner  50 First fit 37000  18821 3686.46
+../bin/runner  50 Smart_first_fit 37000  25357 16.14
+../bin/runner  50 First fit 37000  18500 3842.02
+../bin/runner  50 Smart_first_fit 37000  27598 17.9
+../bin/runner  50 First fit 38000  18982 3840.76
+../bin/runner  50 Smart_first_fit 38000  26035 16.32
+../bin/runner  50 First fit 38000  19002 4096.9
+../bin/runner  50 Smart_first_fit 38000  28351 18.34
+../bin/runner  50 First fit 39000  19827 4044.62
+../bin/runner  50 Smart_first_fit 39000  26712 16.72
+../bin/runner  50 First fit 39000  19503 4273.32
+../bin/runner  50 Smart_first_fit 39000  29095 18.7
+../bin/runner  50 First fit 40000  20360 4255.18
+../bin/runner  50 Smart_first_fit 40000  27408 17.08
+../bin/runner  50 First fit 40000  20529 4494.52
+../bin/runner  50 Smart_first_fit 40000  29840 19.16
+../bin/runner  50 First fit 41000  20873 4476.28
+../bin/runner  50 Smart_first_fit 41000  28092 17.9
+../bin/runner  50 First fit 41000  20909 4717.68
+../bin/runner  50 Smart_first_fit 41000  30571 19.6
+../bin/runner  50 First fit 42000  20991 4745.72
+../bin/runner  50 Smart_first_fit 42000  28779 17.72
+../bin/runner  50 First fit 42000  21505 5002.68
+../bin/runner  50 Smart_first_fit 42000  31316 19.88
+../bin/runner  50 First fit 43000  21900 4920.04
+../bin/runner  50 Smart_first_fit 43000  29478 18.36
+../bin/runner  50 First fit 43000  22042 5232.22
+../bin/runner  50 Smart_first_fit 43000  32054 20.46
+../bin/runner  50 First fit 44000  22411 5204
+../bin/runner  50 Smart_first_fit 44000  30149 18.62
+../bin/runner  50 First fit 44000  22000 5479.2
+../bin/runner  50 Smart_first_fit 44000  32809 23.7
+../bin/runner  50 First fit 45000  22923 5442.98
+../bin/runner  50 Smart_first_fit 45000  30819 18.96
+../bin/runner  50 First fit 45000  22505 5737.12
+../bin/runner  50 Smart_first_fit 45000  33558 24.04
+../bin/runner  50 First fit 46000  23409 5618.7
+../bin/runner  50 Smart_first_fit 46000  31516 19.32
+../bin/runner  50 First fit 46000  23486 5992.76
+../bin/runner  50 Smart_first_fit 46000  34311 24.56
+../bin/runner  50 First fit 47000  23929 5935.56
+../bin/runner  50 Smart_first_fit 47000  32211 19.66
+../bin/runner  50 First fit 47000  23505 6184.78
+../bin/runner  50 Smart_first_fit 47000  35066 25
+../bin/runner  50 First fit 48000  24461 6122.04
+../bin/runner  50 Smart_first_fit 48000  32911 22.96
+../bin/runner  50 First fit 48000  24007 6517.48
+../bin/runner  50 Smart_first_fit 48000  35808 25.4
+../bin/runner  50 First fit 49000  24973 6384.6
+../bin/runner  50 Smart_first_fit 49000  33609 23.48
+../bin/runner  50 First fit 49000  25023 6730.82
+../bin/runner  50 Smart_first_fit 49000  36558 25.94
+../bin/runner  50 First fit 50000  25465 6716.32
+../bin/runner  50 Smart_first_fit 50000  34285 23.96
+../bin/runner  50 First fit 50000  25663 7083.72
+../bin/runner  50 Smart_first_fit 50000  37313 26.36
+../bin/runner  50 First fit 51000  26023 6989.2
+../bin/runner  50 Smart_first_fit 51000  34973 24.26
+../bin/runner  50 First fit 51000  26170 7287
+../bin/runner  50 Smart_first_fit 51000  38067 26.72
+../bin/runner  50 First fit 52000  26017 7195.88
+../bin/runner  50 Smart_first_fit 52000  35641 24.58
+../bin/runner  50 First fit 52000  26561 7678.58
+../bin/runner  50 Smart_first_fit 52000  38809 27.1
+../bin/runner  50 First fit 53000  27024 7556.06
+../bin/runner  50 Smart_first_fit 53000  36322 25.06
+../bin/runner  50 First fit 53000  27090 7959.46
+../bin/runner  50 Smart_first_fit 53000  39562 27.5
+../bin/runner  50 First fit 54000  27439 7843.78
+../bin/runner  50 Smart_first_fit 54000  36994 25.32
+../bin/runner  50 First fit 54000  27605 8165.04
+../bin/runner  50 Smart_first_fit 54000  40313 29.58
+../bin/runner  50 First fit 55000  27526 8056.34
+../bin/runner  50 Smart_first_fit 55000  37696 25.68
+../bin/runner  50 First fit 55000  28113 8473.7
+../bin/runner  50 Smart_first_fit 55000  41058 28.32
+../bin/runner  50 First fit 56000  28535 8444.48
+../bin/runner  50 Smart_first_fit 56000  38398 26.02
+../bin/runner  50 First fit 56000  28624 8797.6
+../bin/runner  50 Smart_first_fit 56000  41807 28.78
+../bin/runner  50 First fit 57000  29028 8761.56
+../bin/runner  50 Smart_first_fit 57000  39089 26.54
+../bin/runner  50 First fit 57000  29130 9107.28
+../bin/runner  50 Smart_first_fit 57000  42551 29
+../bin/runner  50 First fit 58000  29541 8974.38
+../bin/runner  50 Smart_first_fit 58000  39776 26.78
+../bin/runner  50 First fit 58000  29650 9525.46
+../bin/runner  50 Smart_first_fit 58000  43306 29.54
+../bin/runner  50 First fit 59000  29552 9375.38
+../bin/runner  50 Smart_first_fit 59000  40469 26.98
+../bin/runner  50 First fit 59000  30150 9848.06
+../bin/runner  50 Smart_first_fit 59000  44056 29.92
+../bin/runner  50 First fit 60000  30051 9592.18
+../bin/runner  50 Smart_first_fit 60000  41152 27.88
+../bin/runner  50 First fit 60000  30029 10068.8
+../bin/runner  50 Smart_first_fit 60000  44815 30.52
+../bin/runner  50 First fit 61000  30709 10024.1
+../bin/runner  50 Smart_first_fit 61000  41831 28.04
+../bin/runner  50 First fit 61000  30530 10408.3
+../bin/runner  50 Smart_first_fit 61000  45564 30.82
+../bin/runner  50 First fit 62000  31569 10345
+../bin/runner  50 Smart_first_fit 62000  42513 28.24
+../bin/runner  50 First fit 62000  31688 10776.3
+../bin/runner  50 Smart_first_fit 62000  46299 31.16
+../bin/runner  50 First fit 63000  32069 10676
+../bin/runner  50 Smart_first_fit 63000  43190 28.58
+../bin/runner  50 First fit 63000  32125 11113.7
+../bin/runner  50 Smart_first_fit 63000  47053 31.56
+../bin/runner  50 First fit 64000  32563 11027.2
+../bin/runner  50 Smart_first_fit 64000  43884 29.04
+../bin/runner  50 First fit 64000  32705 11744.4
+../bin/runner  50 Smart_first_fit 64000  47799 32.7
+../bin/runner  50 First fit 65000  33096 11384.1
+../bin/runner  50 Smart_first_fit 65000  44562 29.56
+../bin/runner  50 First fit 65000  33301 11863
+../bin/runner  50 Smart_first_fit 65000  48541 32.46
+../bin/runner  50 First fit 66000  33666 11628.8
+../bin/runner  50 Smart_first_fit 66000  45242 29.82
+../bin/runner  50 First fit 66000  33821 12363.4
+../bin/runner  50 Smart_first_fit 66000  49290 32.88
+../bin/runner  50 First fit 67000  34088 12114.1
+../bin/runner  50 Smart_first_fit 67000  45919 30
+../bin/runner  50 First fit 67000  34171 12745.5
+../bin/runner  50 Smart_first_fit 67000  50034 33.28
+../bin/runner  50 First fit 68000  34633 12357.7
+../bin/runner  50 Smart_first_fit 68000  46633 30.72
+../bin/runner  50 First fit 68000  34849 12962.1
+../bin/runner  50 Smart_first_fit 68000  50794 33.86
+../bin/runner  50 First fit 69000  35206 12722.9
+../bin/runner  50 Smart_first_fit 69000  47318 30.92
+../bin/runner  50 First fit 69000  35244 13492.7
+../bin/runner  50 Smart_first_fit 69000  51539 34.16
+../bin/runner  50 First fit 70000  35548 13091.8
+../bin/runner  50 Smart_first_fit 70000  48000 31.14
+../bin/runner  50 First fit 70000  35765 13927
+../bin/runner  50 Smart_first_fit 70000  52281 34.72
+../bin/runner  50 First fit 71000  36139 13508.2
+../bin/runner  50 Smart_first_fit 71000  48686 31.82
+../bin/runner  50 First fit 71000  36251 14334.7
+../bin/runner  50 Smart_first_fit 71000  53037 34.98
+../bin/runner  50 First fit 72000  36652 14045
+../bin/runner  50 Smart_first_fit 72000  49373 31.98
+../bin/runner  50 First fit 72000  36838 14731
+../bin/runner  50 Smart_first_fit 72000  53769 35.3
+../bin/runner  50 First fit 73000  37174 14262.5
+../bin/runner  50 Smart_first_fit 73000  50052 32.64
+../bin/runner  50 First fit 73000  37254 14979.3
+../bin/runner  50 Smart_first_fit 73000  54507 35.9
+../bin/runner  50 First fit 74000  37054 14809.9
+../bin/runner  50 Smart_first_fit 74000  50752 32.82
+../bin/runner  50 First fit 74000  37020 15386.6
+../bin/runner  50 Smart_first_fit 74000  55249 36.18
+../bin/runner  50 First fit 75000  38182 15203.5
+../bin/runner  50 Smart_first_fit 75000  51435 33.06
+../bin/runner  50 First fit 75000  37740 15805.9
+../bin/runner  50 Smart_first_fit 75000  56000 36.72
+../bin/runner  50 First fit 76000  38741 15458.4
+../bin/runner  50 Smart_first_fit 76000  52138 33.58
+../bin/runner  50 First fit 76000  38024 16385.1
+../bin/runner  50 Smart_first_fit 76000  56748 37.18
+../bin/runner  50 First fit 77000  39199 15865.1
+../bin/runner  50 Smart_first_fit 77000  52813 33.96
+../bin/runner  50 First fit 77000  39285 16821.2
+../bin/runner  50 Smart_first_fit 77000  57495 37.58
+../bin/runner  50 First fit 78000  39639 16443.9
+../bin/runner  50 Smart_first_fit 78000  53483 34.6
+../bin/runner  50 First fit 78000  39779 17273
+../bin/runner  50 Smart_first_fit 78000  58233 37.9
+../bin/runner  50 First fit 79000  40205 16703.7
+../bin/runner  50 Smart_first_fit 79000  54173 34.7
+../bin/runner  50 First fit 79000  40426 17723.7
+../bin/runner  50 Smart_first_fit 79000  58985 38.24
+../bin/runner  50 First fit 80000  40058 17131.1
+../bin/runner  50 Smart_first_fit 80000  54862 34.98
+../bin/runner  50 First fit 80000  40783 17976.6
+../bin/runner  50 Smart_first_fit 80000  59725 38.58
+../bin/runner  50 First fit 81000  41215 17561.7
+../bin/runner  50 Smart_first_fit 81000  55541 35.14
+../bin/runner  50 First fit 81000  41427 18628.3
+../bin/runner  50 Smart_first_fit 81000  60473 38.92
+../bin/runner  50 First fit 82000  41638 17992.4
+../bin/runner  50 Smart_first_fit 82000  56211 35.7
+../bin/runner  50 First fit 82000  41035 19084.5
+../bin/runner  50 Smart_first_fit 82000  61219 39.56
+../bin/runner  50 First fit 83000  41554 18630.3
+../bin/runner  50 Smart_first_fit 83000  56890 36
+../bin/runner  50 First fit 83000  41532 19330.3
+../bin/runner  50 Smart_first_fit 83000  61964 40.08
+../bin/runner  50 First fit 84000  42738 19087.8
+../bin/runner  50 Smart_first_fit 84000  57578 36.68
+../bin/runner  50 First fit 84000  42821 20038.7
+../bin/runner  50 Smart_first_fit 84000  62715 40.34
+../bin/runner  50 First fit 85000  42552 19347.9
+../bin/runner  50 Smart_first_fit 85000  58263 36.8
+../bin/runner  50 First fit 85000  42536 20282.1
+../bin/runner  50 Smart_first_fit 85000  63464 40.72
+../bin/runner  50 First fit 86000  43050 19814
+../bin/runner  50 Smart_first_fit 86000  58945 37.06
+../bin/runner  50 First fit 86000  43818 20773.8
+../bin/runner  50 Smart_first_fit 86000  64198 40.94
+../bin/runner  50 First fit 87000  44242 20274.9
+../bin/runner  50 Smart_first_fit 87000  59634 37.8
+../bin/runner  50 First fit 87000  43535 21486.3
+../bin/runner  50 Smart_first_fit 87000  64953 41.56
+../bin/runner  50 First fit 88000  44065 20941.2
+../bin/runner  50 Smart_first_fit 88000  60334 37.9
+../bin/runner  50 First fit 88000  44862 21749.4
+../bin/runner  50 Smart_first_fit 88000  65706 47.68
+../bin/runner  50 First fit 89000  45328 21202.8
+../bin/runner  50 Smart_first_fit 89000  61027 38.26
+../bin/runner  50 First fit 89000  45372 22492.9
+../bin/runner  50 Smart_first_fit 89000  66451 48.62
+../bin/runner  50 First fit 90000  45857 21922.4
+../bin/runner  50 Smart_first_fit 90000  61728 38.66
+../bin/runner  50 First fit 90000  45889 22991.2
+../bin/runner  50 Smart_first_fit 90000  67203 48.62
+../bin/runner  50 First fit 91000  45581 22188.9
+../bin/runner  50 Smart_first_fit 91000  62411 39.04
+../bin/runner  50 First fit 91000  46357 23260.5
+../bin/runner  50 Smart_first_fit 91000  67948 48.96
+../bin/runner  50 First fit 92000  46067 22662.1
+../bin/runner  50 Smart_first_fit 92000  63081 39.02
+../bin/runner  50 First fit 92000  46963 24020.5
+../bin/runner  50 Smart_first_fit 92000  68705 49.46
+../bin/runner  50 First fit 93000  47343 23425.2
+../bin/runner  50 Smart_first_fit 93000  63752 39.74
+../bin/runner  50 First fit 93000  46545 24276.7
+../bin/runner  50 Smart_first_fit 93000  69459 49.96
+../bin/runner  50 First fit 94000  47054 23899.9
+../bin/runner  50 Smart_first_fit 94000  64433 40
+../bin/runner  50 First fit 94000  47998 25087.3
+../bin/runner  50 Smart_first_fit 94000  70206 50.1
+../bin/runner  50 First fit 95000  48277 24227.5
+../bin/runner  50 Smart_first_fit 95000  65121 40.34
+../bin/runner  50 First fit 95000  47546 25348.3
+../bin/runner  50 Smart_first_fit 95000  70947 50.78
+../bin/runner  50 First fit 96000  48773 24948.7
+../bin/runner  50 Smart_first_fit 96000  65801 46.38
+../bin/runner  50 First fit 96000  48046 25858.2
+../bin/runner  50 Smart_first_fit 96000  71689 51.14
+../bin/runner  50 First fit 97000  49287 25229.4
+../bin/runner  50 Smart_first_fit 97000  66494 47
+../bin/runner  50 First fit 97000  49542 26702.5
+../bin/runner  50 Smart_first_fit 97000  72436 51.64
+../bin/runner  50 First fit 98000  49795 26008.7
+../bin/runner  50 Smart_first_fit 98000  67175 47.3
+../bin/runner  50 First fit 98000  49939 26968.4
+../bin/runner  50 Smart_first_fit 98000  73177 51.78
+../bin/runner  50 First fit 99000  50278 26255.6
+../bin/runner  50 Smart_first_fit 99000  67841 47.84
+../bin/runner  50 First fit 99000  50379 27527
+../bin/runner  50 Smart_first_fit 99000  73920 52.76
