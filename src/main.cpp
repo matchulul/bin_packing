@@ -3,6 +3,7 @@
 #include "../include/simulationRunner.h"
 #include "../include/firstFitAlgorithm.h"
 
+//TODO: Implement non-positional, proper -- arg parsing.
 SIMDATA parse_args_basic(char *argv[]){
     SIMDATA data;
     data.n_sims = std::stoi(argv[1]);

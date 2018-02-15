@@ -6,24 +6,23 @@
 #include "bin.h"
 #include "binObjectFactory.h"
 
-
-class firstFitAlgorithm : public Algorithm{
+/*
+ * firstFitAlgorithm.h
+ * purpose: An implementation class of naive first fit
+ */
+class firstFitAlgorithm : public Algorithm {
 public:
-    //constructors
-    firstFitAlgorithm() = default;
-    firstFitAlgorithm(int n_objects, distType dist);
+  firstFitAlgorithm() = default;
+  firstFitAlgorithm(int n_objects, distType dist);
 
-    //data
-    int num_objects;
-    distType obj_dist;
+  int num_objects;
+  distType obj_dist;
 
-    //functions
-    void reset();
-    virtual int packBins();
-    int count_objects() { return num_objects; };
-    int estimateBins();
-    void insertNewBin(binObject obj);
+  void reset();
+  virtual int packBins();
+  int count_objects() { return num_objects; };
+  int estimateBins();
+  void insertNewBin(binObject obj);
 };
 
-
-#endif //BINPACKING_FIRST_FIT_ALGORITHM_H
+#endif // BINPACKING_FIRST_FIT_ALGORITHM_H

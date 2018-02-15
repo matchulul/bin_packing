@@ -4,13 +4,18 @@
 
 #include <vector>
 
+/*
+ * binObject.h
+ * purpose: Data class for bin objects
+ */
 class binObject {
-
 public:
-    binObject() = default;
-    binObject(float _object_size) : object_size(_object_size) {};
-    float object_size;
-    float size();
+  binObject() = default;
+  binObject(float _object_size) : object_size(_object_size){};
+
+  float object_size;
+
+  float size();
 };
 
 typedef std::vector<binObject> binObjectVector;

@@ -6,19 +6,21 @@
 #include "binObject.h"
 #include "binObjectFactory.h"
 
-
-class Algorithm{
+/*
+ * algorithm.h
+ * Purpose: Abstract base class for Bin packing solutions
+ */
+class Algorithm {
 public:
-    Algorithm() : name("Bin Packing"){};
+  Algorithm() : name("Bin Packing"){};
 
-    binVector bins;
-    binObjectVector bin_objects;
-    binObjectFactory factory;
-    std::string name;
-    virtual int count_objects(){return 0;};
+  binVector bins;
+  binObjectVector bin_objects;
+  binObjectFactory factory;
+  std::string name;
 
-
-    void initializeNBins(int n);
+  virtual int count_objects() { return 0; };
+  void initializeNBins(int n);
 };
 
 #endif
