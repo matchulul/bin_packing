@@ -5,7 +5,7 @@ This project is a solution implementation to the bin packing problem as stated i
 
 *Suppose that we are given a set of _n_ objects,  where the size _s~i~_ of the ith object satisfies 0< s~i~ < 1.We wish to pack all the objects into the minimum number of unit-size bins. Each bin can hold any subset of the objects whose total size does not exceed 1.*
 
-The **first-fit** heuristic takes each object in trun and places it into the first bin that can accomodate it.
+The **first-fit** heuristic takes each object in turn and places it into the first bin that can accomodate it.
 
 
 ##### Requirements:
