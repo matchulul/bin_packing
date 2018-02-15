@@ -11,7 +11,7 @@ enum supported_algos{
     smart_first_fit
 };
 
-const std::map<supported_algos, std::string> algo_map_name = { {smart_first_fit, "Smart_first_fit"}};
+const std::map<supported_algos, std::string> algo_map_name = {{first_fit, "First fit"}, {smart_first_fit, "Smart_first_fit"}};
 
 struct SIMDATA{
     int n_sims;

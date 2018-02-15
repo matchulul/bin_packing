@@ -29,6 +29,7 @@ class binObjectFactory {
     std::normal_distribution<float> normal_dist{0.5, 0.15};
     std::uniform_real_distribution<float> uniform_dist{0.0, 1.0};
 public:
+    binObjectFactory() {generator.seed(time(0));}
     binObjectVector generateN(int n, distType dist);
     binObject generateBinObject(distType dist);
 

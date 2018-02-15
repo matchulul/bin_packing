@@ -32,9 +32,7 @@ int simulationRunner::runOne(SIMDATA data){
 }
 
 void simulationRunner::runN(SIMDATA data){
-    std::cout << "Running ^" << data.n_sims << " bin packing experiments using: "
-              << algo_map_name.at(data.algo) << " with *" << data.n_objs
-              << " bin objects " << std::endl;
+    std::cout << "  " << data.n_sims << " " << algo_map_name.at(data.algo) << " " << data.n_objs << " ";
     int bins;
     float average_time = 0.0;
     for(int i = 0; i < data.n_sims; i++){
@@ -43,16 +41,12 @@ void simulationRunner::runN(SIMDATA data){
         average_time += get_delta(start, Time::now()).count();
         num_bins.push_back((float) bins);
     }
-
-    std::cout << "Simulation Complete! It took a total of " << average_time << " ms to complete "
-              << data.n_sims << " simulations." << std::endl << "Data Report:" << std::endl;
     report(average_time/data.n_sims);
 }
 
 void simulationRunner::report(float average_time){
     float average_bins = std::accumulate(num_bins.begin(), num_bins.end(), 0)/num_bins.size();
     
-    std::cout << "Average number of bins #" << average_bins 
-              << " Average run time in ms @" << average_time<< std::endl;
+    std::cout << " " << average_bins << " " << average_time << std::endl;
 }
 
