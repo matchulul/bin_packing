@@ -3,11 +3,6 @@
 #include "../include/simulationRunner.h"
 #include "../include/firstFitAlgorithm.h"
 
-    /*int n_sims;
-    int n_objs;
-    distType dist;
-    supported_algos algo;*/
-
 SIMDATA parse_args_basic(char *argv[]){
     SIMDATA data;
     data.n_sims = std::stoi(argv[1]);
@@ -24,7 +19,10 @@ SIMDATA parse_args_basic(char *argv[]){
     else if (std::stoi(argv[4]) == 1){
         data.algo = smart_first_fit;
     }
-    else{ //default
+    else if (std::stoi(argv[4]) == 2){
+        data.algo = s_estimate;
+    }
+    else{ // Default
         data.algo = first_fit;
     }
     return data;
@@ -33,7 +31,6 @@ SIMDATA parse_args_basic(char *argv[]){
 
 int main(int argc, char *argv[]) 
 {
-    std::cout << std::string(*argv);
     SIMDATA data;
     if (argc == 1)
     {
