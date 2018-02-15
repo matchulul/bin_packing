@@ -11,13 +11,9 @@
 class smartFirstFit : public firstFitAlgorithm {
 public:
     smartFirstFit()
-        : firstFitAlgorithm()
-    {
-    }
+        : firstFitAlgorithm(){}
     smartFirstFit(int n_objects, distType dist)
-        : firstFitAlgorithm(n_objects, dist)
-    {
-    }
+        : firstFitAlgorithm(n_objects, dist){}
 
     Bin first_empty_bin;
     Bin* less_half_empty_bin;
