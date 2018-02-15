@@ -12,17 +12,17 @@
  */
 class firstFitAlgorithm : public Algorithm {
 public:
-  firstFitAlgorithm() = default;
-  firstFitAlgorithm(int n_objects, distType dist);
+    firstFitAlgorithm() = default;
+    firstFitAlgorithm(int n_objects, distType dist);
 
-  int num_objects;
-  distType obj_dist;
+    int num_objects;
+    distType obj_dist;
 
-  void reset();
-  virtual int packBins();
-  int count_objects() { return num_objects; };
-  int estimateBins();
-  void insertNewBin(binObject obj);
+    void reset();
+    virtual int packBins();
+    int count_objects() { return num_objects; };
+    int estimateBins();
+    void insertNewBin(binObject obj);
 };
 
 #endif // BINPACKING_FIRST_FIT_ALGORITHM_H

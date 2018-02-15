@@ -10,12 +10,13 @@
  */
 class binObject {
 public:
-  binObject() = default;
-  binObject(float _object_size) : object_size(_object_size){};
+    binObject() = default;
+    binObject(float _object_size)
+        : object_size(_object_size){};
 
-  float object_size;
+    float object_size;
 
-  float size();
+    float size() { return object_size; };
 };
 
 typedef std::vector<binObject> binObjectVector;
